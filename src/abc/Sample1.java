@@ -10,7 +10,7 @@ public class Sample1 {
 		System.setProperty("webdriver.gecko.driver", "E:\\selenium\\selenium files\\Drivers\\geckodriver\\geckodriver.exe");
 		WebDriver driver = new FirefoxDriver();
 		driver.get("https://www.google.com");
-		driver.close();
+		driver.quit();
 	}
 
 }
